@@ -2,7 +2,10 @@
 // Noah Domingues
 // https://github.com/NoahDomingues
 
-// extract-uber-water-fixed.js
+// THIS FILE EXTRACTS JUST ONE XML. I'VE ONLY EVER FOUND ONE SINGLE FILE IN UBERLOD.TPK.
+// If you need to extract multiple XML files, use unpack-uber-all-files.js. Note that it will not preserve file names.
+
+// unpack-uber-single-file.js
 const fs = require('fs');
 
 const IN   = 'uber_lod.tpk';
